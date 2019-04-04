@@ -9,6 +9,9 @@
     "build": "tsc",
     "watch": "ts-node-dev --respawn src/index.ts"
   },
+  "engines": {
+    "node": "11.12.0"
+  },
   "devDependencies": {
     "@types/dotenv": "^6.1.1",
     "@types/node": "^11.13.0",
