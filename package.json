@@ -6,7 +6,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "ts-node-dev --respawn src/index.ts"
+    "build": "tsc",
+    "watch": "ts-node-dev --respawn src/index.ts"
   },
   "devDependencies": {
     "@types/dotenv": "^6.1.1",
