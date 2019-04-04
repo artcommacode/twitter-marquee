@@ -27,6 +27,7 @@ if (
       .slice(0, 50)
     try {
       await client.post('account/update_profile', {name})
+      console.log(name)
     } catch (error) {
       console.log(error)
     }
