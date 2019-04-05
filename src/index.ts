@@ -34,7 +34,7 @@ const makeName = async (index: number) => {
   } catch (error) {
     console.log(error)
   }
-  await sleep(10 * 60 * 1000)
+  await sleep(60 * 1000)
   makeName((index + 1) % 50)
 }
 
